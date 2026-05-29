@@ -81,8 +81,8 @@ from sklearn.metrics import (
 ## 딥러닝 라이브러리
 ```python
 import tensorflow as tf                                   # 딥러닝 프레임워크
-from tensorflow.keras import layers, models              # 신경망 구성
-from tensorflow.keras.callbacks import EarlyStopping    # 과적합 방지
+from tensorflow.pytorch import layers, models              # 신경망 구성
+from tensorflow.pytorch.callbacks import EarlyStopping    # 과적합 방지
 ```
 
 ## 시각화 라이브러리
@@ -217,8 +217,8 @@ from sklearn.ensemble import RandomForestClassifier
 
 # 🧠 딥러닝
 import tensorflow as tf
-from tensorflow.keras import layers, models
-from tensorflow.keras.callbacks import EarlyStopping
+from tensorflow.pytorch import layers, models
+from tensorflow.pytorch.callbacks import EarlyStopping
 
 # 📈 시각화
 import matplotlib.pyplot as plt
@@ -904,7 +904,7 @@ print("\n🚀 MLP 신경망 훈련 중...")
 
 # 1단계: 입력 데이터 변환
 # ML 모델용: sklearn 스케일러
-# DL 모델용: TensorFlow 텐서 + MinMaxScaler
+# DL 모델용: PyTorch 텐서 + MinMaxScaler
 
 from sklearn.preprocessing import MinMaxScaler
 
